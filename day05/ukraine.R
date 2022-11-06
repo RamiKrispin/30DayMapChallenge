@@ -73,12 +73,13 @@ ggplot() +
        caption = "Data Source: OpenStreetMap") +
   theme(
     plot.background = element_rect(fill = "#282828"),
-    plot.title= element_text(size=12, hjust=.5,
+    plot.title= element_text(size=24, hjust=.5,
                                color="White",
                                face="bold"),
     plot.caption= element_text(size=8,
                              color="White",
-                             face="plain"),
+                             face="plain",
+                             hjust=0.01),
     plot.subtitle = element_text(size = 8, hjust=.5,
                                  color="White",
                                  margin=margin(2, 0, 5, 0))
