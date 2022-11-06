@@ -5,6 +5,7 @@
 # Reference:
 # https://ggplot2tutor.com/tutorials/streetmaps
 # http://joshuamccrain.com/tutorials/maps/streets_tutorial.html
+# https://taraskaduk.com/posts/2021-01-18-print-street-maps/
 
 df <- readr::read_csv("day05/events_latest.csv")
 
@@ -43,6 +44,22 @@ river <- opq(bbox = limits)%>%
   add_osm_feature(key = "waterway", value = c("canal", "river", "riverbank")) %>%
   osmdata_sf()
 
+# water_osm <- opq(bbox = limits) %>%
+#   add_osm_feature(key = "natural", value = "water") %>%
+#   osmdata_sf() %>%
+#   unname_osmdata_sf()
+#
+# river_osm <- opq(bbox = limits) %>%
+#   add_osm_feature(key = "waterway", value = c("river", "riverbank")) %>%
+#   osmdata_sf() %>%
+#   unname_osmdata_sf()
+
+# water <- c(water_osm, river_osm) %>%
+#   .$osm_multipolygons %>%
+#   dplyr::select(osm_id, name) %>%
+#   dplyr::mutate(area = st_area(.)) %>%
+#   # this filter gets rid of tiny isolated lakes et cetera
+#   filter(area >= quantile(area, probs = 0.75))
 
 # Plot
 ggplot() +
