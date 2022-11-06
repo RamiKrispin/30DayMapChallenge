@@ -15,3 +15,7 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 ### Day 4 | Green
 
 [<img src="images/day4.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day03/covid19%20vaccinated.R)
+
+### Day 5 | Ukraine
+
+[<img src="images/day5.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day03/ukraine.R)
