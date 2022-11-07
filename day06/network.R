@@ -256,7 +256,7 @@ ggplot() +
        subtitle = "-0.088°N / 51.489°E",
        caption = "#30DayMapChallenge | Viz: Rami Krispin | Data: OpenStreetMap") +
   theme(
-    plot.background = element_rect(fill = "#343a40"),
+    plot.background = element_rect(fill = "#282828"),
     plot.title= element_text(size=24, hjust=.5,
                              color="White",
                              face="bold"),
