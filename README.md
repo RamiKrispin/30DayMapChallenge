@@ -19,3 +19,7 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 ### Day 5 | Ukraine
 
 [<img src="images/day5.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day05/ukraine.R)
+
+### Day 6 | Network
+
+[<img src="images/day6.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day06/network.R)
