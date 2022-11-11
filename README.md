@@ -23,3 +23,7 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 ### Day 6 | Network
 
 [<img src="images/day6.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day06/network.R)
+
+### Day 11 | Red
+
+[<img src="images/day11.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day11/red.R)
