@@ -12,7 +12,7 @@ fill <- "black"
 
 
 city_coords <- getbb("New York City")
-
+city_coords[2,1] <- 40.49
 limits <-  c(city_coords[1,1], city_coords[2,1],
              city_coords[1,2], city_coords[2,2])
 
@@ -39,19 +39,14 @@ water <- opq(bbox = limits)%>%
 ggplot() +
   geom_sf(data = residential$osm_lines,
           inherit.aes = FALSE,
-          color = "orange",
+          color = "#a8dadc",
           size = .3,
-          alpha = .4) +
+          alpha = .5) +
   geom_sf(data = motorway$osm_lines,
           inherit.aes = FALSE,
           color = "white",
           size = .3,
-          alpha = .3) +
-  geom_sf(data = water$osm_lines,
-          inherit.aes = FALSE,
-          color = "blue",
-          size = .3,
-          alpha = .3) +
+          alpha = .4) +
   coord_sf(xlim = city_coords[1,],
            ylim = city_coords[2,],
            expand = TRUE) +
@@ -67,7 +62,7 @@ ggplot() +
     plot.caption= element_text(size=9,
                                color= text_color,
                                face="plain",
-                               hjust=0.01),
+                               hjust=0.1),
     plot.subtitle = element_text(size = 9, hjust=.5,
                                  color= text_color,
                                  margin=margin(0, 0, 0, 0))
