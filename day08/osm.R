@@ -7,8 +7,8 @@ library(sf)
 library(dplyr)
 library(ggplot2)
 
-text_color <- "black"
-fill <- "white"
+text_color <- "white"
+fill <- "black"
 
 
 city_coords <- getbb("New York City")
@@ -18,7 +18,7 @@ limits <-  c(city_coords[1,1], city_coords[2,1],
 
 available_tags("railway")
 available_tags("highway")
-
+available_tags("natural")
 
 residential <-  opq(bbox = limits) %>%
   add_osm_feature(key = "highway",
@@ -31,7 +31,11 @@ motorway <- opq(bbox = limits)%>%
                   value = c("motorway", "trunk", "primary")) %>%
   osmdata_sf()
 
-unique(streets$osm_lines$name)
+water <- opq(bbox = limits)%>%
+  add_osm_feature(key = "place",
+                  value = c("sea", "ocean")) %>%
+  osmdata_sf()
+
 ggplot() +
   geom_sf(data = residential$osm_lines,
           inherit.aes = FALSE,
@@ -40,15 +44,23 @@ ggplot() +
           alpha = .4) +
   geom_sf(data = motorway$osm_lines,
           inherit.aes = FALSE,
-          color = "black",
-          size = .4,
-          alpha = .4) +
+          color = "white",
+          size = .3,
+          alpha = .3) +
+  geom_sf(data = water$osm_lines,
+          inherit.aes = FALSE,
+          color = "blue",
+          size = .3,
+          alpha = .3) +
+  coord_sf(xlim = city_coords[1,],
+           ylim = city_coords[2,],
+           expand = TRUE) +
   theme_void() +
-  labs(title = "San Francisco, CA",
-       subtitle = "-0.088°N / 51.489°E",
+  labs(title = "New York",
+       subtitle = "40.7128° N, 74.0060°W",
        caption = "#30DayMapChallenge | Viz: Rami Krispin | Data: OpenStreetMap") +
   theme(
-    plot.background = element_rect(fill = "white"),
+    plot.background = element_rect(fill = fill),
     plot.title= element_text(size=24, hjust=.5,
                              color= text_color,
                              face="bold"),
@@ -58,5 +70,5 @@ ggplot() +
                                hjust=0.01),
     plot.subtitle = element_text(size = 9, hjust=.5,
                                  color= text_color,
-                                 margin=margin(2, 0, 5, 0))
+                                 margin=margin(0, 0, 0, 0))
   )
