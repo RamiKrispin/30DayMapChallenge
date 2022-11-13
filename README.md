@@ -33,6 +33,10 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 [<img src="images/day11.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day11/red.R)
 
+### Day 12 | Scale
+
+[<img src="images/day12.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day12/scale.R)
+
 ### Day 13 | 5 minute map
 
 [<img src="images/day13.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day13/5min.R)
