@@ -41,6 +41,11 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 [<img src="images/day13.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day13/5min.R)
 
+
+### Day 14 | Hexagons
+
+[<img src="images/day14.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day14/hexagons.R)
+
 ### Day 16 | Minimal
 
 [<img src="images/day16.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day1l/minimal.R)
