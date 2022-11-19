@@ -6,6 +6,9 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 [<img src="images/day1.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day01/meteorite%20landings.R)
 
+### Day 2 | Lines
+
+[<img src="images/day2.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day02/lines.R)
 
 ### Day 3 | Polygons
 

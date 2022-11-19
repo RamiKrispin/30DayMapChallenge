@@ -5,6 +5,7 @@
 
 # Airline mapping
 # Source: https://www.transtats.bts.gov/Oneway.asp?Svryq_Qr5p=h0v37r%FDPn44vr4%FDP1qr.%FDjur0%FD6ur%FD5nzr%FDp1qr%FDun5%FDorr0%FD75rq%FDoB%FDz7y6v2yr%FDpn44vr45%FP%FDn%FD07zr4vp%FD57ssvA%FDv5%FD75rq%FDs14%FDrn4yvr4%FD75r45%FP%FDs14%FDrAnz2yr%FP%FDcN%FP%FDcN%FLE%FM%FP%FDcN%FLF%FM.%FDh5r%FD6uv5%FDsvryq%FDs14%FDn0nyB5v5%FDnp4155%FDn%FD4n0tr%FD1s%FDBrn45.&Svryq_gB2r=Pun4&fry_Pn6=bc_haVdhR_PNeeVRe&Y11x72_gnoyr=Y_haVdhR_PNeeVRef&fry_in4=cPg_bagVZR_Nee&fry_f6n6=a/N&Qn6n_gB2r=PNg&cr4pr06_Synt=D&Qv52ynB_Synt=D
+
 airlines_map <- data.frame(code = c("9E", "AA", "AS", "B6", "DL",
                                     "F9", "G4", "HA", "MQ", "NK",
                                     "OH", "OO", "QX", "UA", "WN",
