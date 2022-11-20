@@ -51,6 +51,10 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 ### Day 16 | Minimal
 
-[<img src="images/day16.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day1l/minimal.R)
+[<img src="images/day16.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day16/minimal.R)
+
+### Day 18 | Colour Friday: Blue
+
+[<img src="images/day18.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day18/blue.R)
 
 
