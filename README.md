@@ -58,3 +58,7 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 [<img src="images/day18.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day18/blue.R)
 
 
+### Day 21 | Data: Kontur Population Dataset
+
+[<img src="images/day21.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day21/kontur_pop.R)
+
