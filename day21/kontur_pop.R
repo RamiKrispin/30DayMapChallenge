@@ -30,6 +30,9 @@ st_crs(berlin_df[1,])
 
 df <- st_transform(germany_df, crs = st_crs(berlin_df[1,]))
 
+berlin_hex <- st_intersection(df, berlin_df) %>%
+  select(h3, population, geom)
+
 # Start recording
 gg_record(
   dir = file.path("./day21", "gif"),
