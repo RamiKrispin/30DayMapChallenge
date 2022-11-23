@@ -38,6 +38,10 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 [<img src="images/day8.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day08/osm.R)
 
+### Day 10 | Bad Map
+
+[<img src="images/day10.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day10/bad_map.R)
+
 
 ### Day 11 | Red
 
