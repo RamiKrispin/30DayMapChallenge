@@ -58,7 +58,8 @@ gg_record(
 )
 
 # Plot ----
-
+background <- "black"
+text <- "white"
 # Set annotations
 annotation_df <- data.frame(city = c("Lima", "The Andes\nMountains", "Amazon\nRainforest"),
                             x = c(-78, -80.2, -72),
@@ -82,7 +83,7 @@ ggplot() +
     )) +
   scale_fill_manual(
     values= palette,
-    name="Altitude Levels",
+    name="Altitude Levels (Meters above Sea Level)",
     guide = guide_legend(keyheight = unit(3, units = "mm"),
                          keywidth=unit(12, units = "mm"),
                          label.position = "bottom",
@@ -131,7 +132,7 @@ ggplot() +
 
 
 # Create a gif
-gg_playback(name = file.path("./day07", "gif", "raster.gif"))
+gg_playback(name = file.path("./day07", "gif", "raster1.gif"))
 
 # Stop recording
 gg_stop_recording()
