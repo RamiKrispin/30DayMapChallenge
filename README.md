@@ -27,6 +27,13 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 [<img src="images/day6.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day06/network.R)
 
+
+### Day 7 | Raster
+
+[<img src="images/day7.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day07/raster.R)
+
+
+
 ### Day 8 | OpenStreetMap
 
 [<img src="images/day8.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day08/osm.R)
