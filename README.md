@@ -74,3 +74,7 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 [<img src="images/day21.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day21/kontur_pop.R)
 
+### Day 28 | 3D
+
+<img src="images/day28.png" width="100%" />
+
