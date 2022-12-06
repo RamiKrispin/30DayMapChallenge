@@ -38,7 +38,7 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 ### Day 9 | Space
 
-[<img src="images/day9.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day10/space.R)
+[<img src="images/day9.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day09/space.R)
 
 ### Day 10 | Bad Map
 
@@ -74,3 +74,14 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 
 [<img src="images/day21.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day21/kontur_pop.R)
 
+### Day 26 | Island
+
+[<img src="images/day26.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day26/)
+
+### Day 28 | 3D
+
+[<img src="images/day28.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day28/)
+
+### Day 29 | “Out of my comfort zone”
+
+[<img src="images/day29.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day29/)
