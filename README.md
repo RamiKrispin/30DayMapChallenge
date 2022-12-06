@@ -85,3 +85,4 @@ Following the [#30DayMapChallenge](https://30daymapchallenge.com/)
 ### Day 29 | “Out of my comfort zone”
 
 [<img src="images/day29.png" width="100%" />](https://github.com/RamiKrispin/30DayMapChallenge/blob/main/day29/)
+
